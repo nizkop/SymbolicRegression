@@ -1,5 +1,5 @@
 from pysr import PySRRegressor
-from data import X, y
+from data import X, y, X_noisy, y_noisy
 
 # PySRRegressor initialisieren
 """
@@ -576,7 +576,8 @@ y_units = ["kg*m*m/(s*s)"],#J
 
 
 # Modell trainieren:
-model.fit(X, y)
+# model.fit(X, y)
+model.fit(X_noisy, y_noisy)
 
 # Das beste Modell finden und ausgeben:
 best_model = model.get_best()

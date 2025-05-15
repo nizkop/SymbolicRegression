@@ -20,3 +20,5 @@ print(f"Planck-Konstante: {h} J*s")
 print(f"Avogadro-Zahl: {Avogadro} 1/mol")
 print(f"Gravitationskonstante: {G} m^3/kg/s^2")
 print(f"pi: {pi}")
+
+print(1/(4*pi*epsilon_0))
