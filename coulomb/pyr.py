@@ -1,5 +1,5 @@
 from pysr import PySRRegressor
-from data import X, y, X_noisy, y_noisy
+from coulomb.data import X, y, X_noisy, y_noisy
 
 # PySRRegressor initialisieren
 """
